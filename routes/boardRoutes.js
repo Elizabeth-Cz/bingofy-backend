@@ -6,7 +6,7 @@ const {
   updateBoard,
   deleteBoard,
   getBoard,
-} = require('../controllers/BoardsController');
+} = require('../controllers/boardsController');
 
 const { protect } = require('../middleware/authMiddleware');
 
